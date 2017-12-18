@@ -417,3 +417,423 @@ C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Sole
 C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.dll
 C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.dll.ILTransformTask.repro
 C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.pdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\App.xbf
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\MainPage.xbf
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\Project Soley.xr.xml
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\Project Soley.exe
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\Project Soley.pdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\resources.pri
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\AppxManifest.xml
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\Adapters.g.cs
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\AssemblyInfo.g.cs
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\Assets\StoreLogo.png
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\clrcompression.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\Data.g.cs
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\DotNetNative.debugger-services-def.json
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\Helpers.g.cs
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\ImplTypes.g.cs
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\PInvoke.g.cs
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\Project Soley.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\Project Soley.exe
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\Project Soley.pdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\Project Soley.xr.xml
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\resources.pri
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\SafeTypes.g.cs
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\SharedStubs.g.cs
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\Project Soley.build.appxrecipe
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\Microsoft.CSharp.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.ComponentModel.DataAnnotations.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Core.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Net.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Numerics.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Runtime.Serialization.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.ServiceModel.Web.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.ServiceModel.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Windows.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Xml.Linq.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Xml.Serialization.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Xml.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\mscorlib.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\Microsoft.VisualBasic.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Collections.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Diagnostics.Tools.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Diagnostics.Tracing.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Globalization.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Globalization.Calendars.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.IO.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Reflection.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Reflection.Extensions.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Reflection.Primitives.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Resources.ResourceManager.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Runtime.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Runtime.Handles.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Runtime.InteropServices.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Text.Encoding.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Text.Encoding.Extensions.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Threading.Tasks.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Threading.Timer.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\Microsoft.Win32.Primitives.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Diagnostics.Debug.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.IO.FileSystem.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Net.Primitives.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Net.Sockets.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Runtime.Extensions.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\clrcompression.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Private.Uri.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.AppContext.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Buffers.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Collections.Concurrent.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Collections.Immutable.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Collections.NonGeneric.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Collections.Specialized.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.ComponentModel.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.ComponentModel.Annotations.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.ComponentModel.EventBasedAsync.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Data.Common.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Diagnostics.Contracts.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Diagnostics.DiagnosticSource.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Diagnostics.StackTrace.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Dynamic.Runtime.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Globalization.Extensions.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.IO.Compression.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.IO.Compression.ZipFile.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.IO.FileSystem.Primitives.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.IO.IsolatedStorage.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.IO.UnmanagedMemoryStream.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Linq.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Linq.Expressions.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Linq.Parallel.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Linq.Queryable.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Net.Http.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Net.Http.Rtc.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Net.NameResolution.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Net.NetworkInformation.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Net.Requests.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Net.WebHeaderCollection.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Net.WebSockets.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Net.WebSockets.Client.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Numerics.Vectors.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Numerics.Vectors.WindowsRuntime.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.ObjectModel.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Private.DataContractSerialization.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Private.ServiceModel.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Reflection.Context.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Reflection.DispatchProxy.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Reflection.Emit.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Reflection.Metadata.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Reflection.TypeExtensions.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Runtime.Numerics.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Runtime.Serialization.Json.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Runtime.Serialization.Primitives.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Runtime.Serialization.Xml.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Runtime.WindowsRuntime.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Runtime.WindowsRuntime.UI.Xaml.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Security.Claims.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Security.Cryptography.Algorithms.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Security.Cryptography.Cng.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Security.Cryptography.Encoding.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Security.Cryptography.Primitives.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Security.Cryptography.X509Certificates.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Security.Principal.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.ServiceModel.Duplex.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.ServiceModel.Http.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.ServiceModel.NetTcp.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.ServiceModel.Primitives.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.ServiceModel.Security.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Text.Encoding.CodePages.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Text.RegularExpressions.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Threading.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Threading.Overlapped.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Threading.Tasks.Dataflow.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Threading.Tasks.Extensions.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Threading.Tasks.Parallel.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Xml.ReaderWriter.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Xml.XDocument.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Xml.XmlDocument.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\System.Xml.XmlSerializer.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\Project Soley.csprojResolveAssemblyReference.cache
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\App.g.i.cs
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\App.g.cs
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\MainPage.g.i.cs
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\MainPage.g.cs
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\XamlTypeInfo.g.cs
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\App.xaml
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\MainPage.xaml
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\App.xbf
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\MainPage.xbf
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\XamlSaveStateFile.xml
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\Project Soley.csproj.CoreCompileInputs.cache
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\Project Soley.exe
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\Project Soley.pdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ResourceHandlingTask.state
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\Project Soley.csproj.GenerateResource.Cache
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\priconfig.xml
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\priconfig.xml.intermediate
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\layout.resfiles
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\layout.resfiles.intermediate
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\resources.resfiles
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\resources.resfiles.intermediate
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\pri.resfiles
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\pri.resfiles.intermediate
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\qualifiers.txt
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\qualifiers.txt.intermediate
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ProjectArchitectures.txt
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\Properties\Default.rd.xml
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\Project Soley.xr.xml
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\AppxManifest.xml
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\Project Soley.pdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\Project Soley.exe
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\Microsoft.CSharp.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.ComponentModel.DataAnnotations.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Core.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Net.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Numerics.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Runtime.Serialization.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.ServiceModel.Web.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.ServiceModel.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Windows.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Xml.Linq.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Xml.Serialization.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Xml.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\mscorlib.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\Microsoft.VisualBasic.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Collections.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Diagnostics.Tools.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Diagnostics.Tracing.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Globalization.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Globalization.Calendars.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.IO.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Reflection.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Reflection.Extensions.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Reflection.Primitives.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Resources.ResourceManager.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Runtime.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Runtime.Handles.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Runtime.InteropServices.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Text.Encoding.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Text.Encoding.Extensions.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Threading.Tasks.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Threading.Timer.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\Microsoft.Win32.Primitives.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Diagnostics.Debug.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.IO.FileSystem.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Net.Primitives.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Net.Sockets.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Runtime.Extensions.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Private.Uri.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.AppContext.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Buffers.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Collections.Concurrent.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Collections.Immutable.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Collections.NonGeneric.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Collections.Specialized.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.ComponentModel.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.ComponentModel.Annotations.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.ComponentModel.EventBasedAsync.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Data.Common.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Diagnostics.Contracts.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Diagnostics.DiagnosticSource.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Diagnostics.StackTrace.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Dynamic.Runtime.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Globalization.Extensions.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.IO.Compression.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.IO.Compression.ZipFile.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.IO.FileSystem.Primitives.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.IO.IsolatedStorage.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.IO.UnmanagedMemoryStream.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Linq.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Linq.Expressions.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Linq.Parallel.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Linq.Queryable.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Net.Http.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Net.Http.Rtc.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Net.NameResolution.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Net.NetworkInformation.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Net.Requests.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Net.WebHeaderCollection.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Net.WebSockets.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Net.WebSockets.Client.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Numerics.Vectors.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Numerics.Vectors.WindowsRuntime.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.ObjectModel.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Private.DataContractSerialization.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Private.ServiceModel.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Reflection.Context.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Reflection.DispatchProxy.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Reflection.Emit.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Reflection.Metadata.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Reflection.TypeExtensions.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Runtime.Numerics.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Runtime.Serialization.Json.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Runtime.Serialization.Primitives.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Runtime.Serialization.Xml.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Runtime.WindowsRuntime.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Runtime.WindowsRuntime.UI.Xaml.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Security.Claims.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Security.Cryptography.Algorithms.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Security.Cryptography.Cng.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Security.Cryptography.Encoding.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Security.Cryptography.Primitives.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Security.Cryptography.X509Certificates.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Security.Principal.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.ServiceModel.Duplex.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.ServiceModel.Http.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.ServiceModel.NetTcp.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.ServiceModel.Primitives.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.ServiceModel.Security.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Text.Encoding.CodePages.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Text.RegularExpressions.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Threading.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Threading.Overlapped.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Threading.Tasks.Dataflow.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Threading.Tasks.Extensions.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Threading.Tasks.Parallel.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Xml.ReaderWriter.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Xml.XDocument.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Xml.XmlDocument.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\System.Xml.XmlSerializer.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\WinMetadata\Windows.winmd
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\resources.pri
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\clrcompression.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\Assets\LockScreenLogo.scale-200.png
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\Assets\SplashScreen.scale-200.png
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\Assets\Square150x150Logo.scale-200.png
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\Assets\Square44x44Logo.scale-200.png
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\Assets\Square44x44Logo.targetsize-24_altform-unplated.png
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\Assets\StoreLogo.png
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\in\Assets\Wide310x150Logo.scale-200.png
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc.Project Soley.rsp
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\BuildInfo\BuildInfo.rc
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\BuildInfo\BuildInfo.res
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\BuildInfo\BuildInfo.txt
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\gkargs.rsp
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\Project Soley.closure.csv
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\Project Soley.csv
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\Project Soley.forwarders.csv
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\Project Soley.ilexe
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\Project Soley.ilexe.ILTransformTask.repro
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\Project Soley.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\Project Soley.McgInterop.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\Project Soley.McgInterop.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\Project Soley.metadata
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\Project Soley.reflectionlog.csv
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\Project Soley.res
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.AppContext.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.AppContext.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Collections.NonGeneric.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Collections.NonGeneric.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.ComponentModel.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.ComponentModel.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Data.Common.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Data.Common.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Diagnostics.Contracts.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Diagnostics.Contracts.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Diagnostics.Debug.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Diagnostics.Debug.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Diagnostics.StackTrace.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Diagnostics.StackTrace.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Diagnostics.Tools.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Diagnostics.Tools.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Globalization.Calendars.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Globalization.Calendars.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Globalization.Extensions.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Globalization.Extensions.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Globalization.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Globalization.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.IO.FileSystem.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.IO.FileSystem.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.IO.FileSystem.Primitives.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.IO.FileSystem.Primitives.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.IO.IsolatedStorage.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.IO.IsolatedStorage.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.IO.UnmanagedMemoryStream.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.IO.UnmanagedMemoryStream.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Numerics.Vectors.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Numerics.Vectors.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Private.DeveloperExperience.AppX.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Private.DeveloperExperience.AppX.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Private.PortableThunks.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Private.PortableThunks.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Private.StackTraceGenerator.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Private.StackTraceGenerator.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Private.WinRTInterop.CoreLib.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Private.WinRTInterop.CoreLib.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Reflection.DispatchProxy.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Reflection.DispatchProxy.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Runtime.Handles.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Runtime.Handles.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Runtime.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Runtime.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Runtime.InteropServices.WindowsRuntime.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Runtime.InteropServices.WindowsRuntime.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Runtime.Numerics.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Runtime.Numerics.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Runtime.Serialization.Primitives.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Runtime.Serialization.Primitives.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Runtime.WindowsRuntime.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Runtime.WindowsRuntime.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Runtime.WindowsRuntime.UI.Xaml.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Runtime.WindowsRuntime.UI.Xaml.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Security.Claims.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Security.Claims.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Security.Cryptography.Algorithms.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Security.Cryptography.Algorithms.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Security.Cryptography.Cng.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Security.Cryptography.Cng.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Security.Cryptography.Encoding.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Security.Cryptography.Encoding.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Security.Cryptography.Primitives.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Security.Cryptography.Primitives.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Security.Cryptography.X509Certificates.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Security.Cryptography.X509Certificates.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Security.Principal.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Security.Principal.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Text.Encoding.CodePages.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Text.Encoding.CodePages.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Text.Encoding.Extensions.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Text.Encoding.Extensions.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Text.Encoding.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Text.Encoding.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Threading.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Threading.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Threading.Overlapped.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Threading.Overlapped.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Threading.Tasks.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Threading.Tasks.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Threading.Tasks.Parallel.ildll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\ILTransformed\System.Threading.Tasks.Parallel.ilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\MDIL\Project Soley.mdilexe
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\MDIL\Project Soley.mdilpdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\MDIL\Project Soley.rsp
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\Native.res
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\Native\DotNetNative.debugger-services-def.json
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\Native\Project Soley.pdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\PreMergeILTransformed\Project Soley.exe
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\PreMergeILTransformed\Project Soley.pdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\Project Soley.McgInterop.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\Project Soley.McgInterop.pdb
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\Project Soley.McgInterop.rsp
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\Project Soley.McgInterop\Adapters.g.cs
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\Project Soley.McgInterop\AssemblyInfo.g.cs
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\Project Soley.McgInterop\Data.g.cs
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\Project Soley.McgInterop\Helpers.g.cs
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\Project Soley.McgInterop\ImplTypes.g.cs
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\Project Soley.McgInterop\PInvoke.g.cs
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\Project Soley.McgInterop\SafeTypes.g.cs
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\Project Soley.McgInterop\SharedStubs.g.cs
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\rhbindargs.Project Soley.rsp
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\sgargs.rsp
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.dll
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.dll.ILTransformTask.repro
+C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.pdb
