@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>LUKAS-LAPTOP</Machine>
-    <WindowsUser>Lukas</WindowsUser>
+    <Machine>DESKTOP-MRJ7V52</Machine>
+    <WindowsUser>Sascha</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,61 +10,61 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>48e670d2-5e04-4011-9d06-58ccb6ceccb5</PackageIdentityName>
     <PackageIdentityPublisher>CN=Sascha</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Project Soley\ProjectSoley\Project Soley\Project Soley\obj\x86\Release\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\obj\x86\Release\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\bin\x86\Release\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\bin\x86\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\bin\x86\Release\ilc\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\clrcompression.dll">
+    <AppxPackagedFile Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\bin\x86\Release\ilc\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\Project Soley.dll">
+    <AppxPackagedFile Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\bin\x86\Release\ilc\Project Soley.dll">
       <PackagePath>Project Soley.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\Project Soley.exe">
+    <AppxPackagedFile Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\bin\x86\Release\ilc\Project Soley.exe">
       <PackagePath>Project Soley.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\Project Soley.pdb">
+    <AppxPackagedFile Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\bin\x86\Release\ilc\Project Soley.pdb">
       <PackagePath>Project Soley.pdb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Project Soley\ProjectSoley\Project Soley\Project Soley\bin\x86\Release\ilc\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\bin\x86\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
