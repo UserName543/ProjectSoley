@@ -31,7 +31,7 @@
     <AppXManifest Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\bin\x86\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-15T11:43:17.558</Modified>
+      <Modified>2017-12-17T16:44:31.393</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -75,20 +75,20 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\bin\x86\Release\ilc\Project Soley.dll">
       <PackagePath>Project Soley.dll</PackagePath>
-      <Modified>2017-12-15T11:43:17.446</Modified>
+      <Modified>2017-12-17T16:44:31.254</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\bin\x86\Release\ilc\Project Soley.exe">
       <PackagePath>Project Soley.exe</PackagePath>
-      <Modified>2017-12-15T11:43:17.543</Modified>
+      <Modified>2017-12-17T16:44:31.374</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\bin\x86\Release\ilc\Project Soley.pdb">
       <PackagePath>Project Soley.pdb</PackagePath>
-      <Modified>2017-12-15T11:43:17.542</Modified>
+      <Modified>2017-12-17T16:44:31.372</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\bin\x86\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-15T11:42:56.655</Modified>
+      <Modified>2017-12-17T16:44:05.066</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
