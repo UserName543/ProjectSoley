@@ -19,7 +19,7 @@ namespace Project_Soley
         static string[] Scopes = { CalendarService.Scope.CalendarReadonly };
         static string ApplicationName = "ProjectSoleyApp";
 
-        public void GetCalendarData()
+        public Events GetCalendarData()
         {
             UserCredential credential;
 
@@ -50,7 +50,7 @@ namespace Project_Soley
             request.OrderBy = EventsResource.ListRequest.OrderByEnum.StartTime;
 
             Events events = request.Execute();
-            events.
+            return events;
         }
     }
 }
