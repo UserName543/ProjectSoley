@@ -8,8 +8,40 @@
     mc:Ignorable="d" Width="480" Height="800">
 
     <Grid Background="Black" Width="480" Height="800">
-        <TextBlock FontSize="80" HorizontalAlignment="Left" Margin="156,358,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Height="166" Width="202" Foreground="White"/>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock x:ConnectionId='1' FontSize="25" HorizontalAlignment="Center" Margin="42,10,35,0" Text="For what time should I set an alarm?" TextWrapping="Wrap" VerticalAlignment="Top" Height="47" Width="403" Foreground="White"                                              />
+        <CheckBox x:ConnectionId='2' x:Name="MondayCheckbox"  HorizontalAlignment="Left" Margin="55,105,0,0" VerticalAlignment="Top" Height="42" Width="20" RequestedTheme="Dark" />
+        <CheckBox x:ConnectionId='3' x:Name="TuesdayCheckbox"  HorizontalAlignment="Left" Margin="111,105,0,0" VerticalAlignment="Top" Height="42" Width="20" RequestedTheme="Dark" />
+        <CheckBox x:ConnectionId='4' x:Name="WednesdayCheckbox"  HorizontalAlignment="Left" Margin="170,105,0,0" VerticalAlignment="Top" Height="42" Width="20" RequestedTheme="Dark" />
+        <CheckBox x:ConnectionId='5' x:Name="ThursdayCheckbox"  HorizontalAlignment="Left" Margin="230,105,0,0" VerticalAlignment="Top" Height="42" Width="20" RequestedTheme="Dark" />
+        <CheckBox x:ConnectionId='6' x:Name="FridayCheckbox"  HorizontalAlignment="Left" Margin="287,105,0,0" VerticalAlignment="Top" Height="42" Width="20" RequestedTheme="Dark" />
+        <CheckBox x:ConnectionId='7' x:Name="SaturdayCheckbox"  HorizontalAlignment="Left" Margin="342,105,0,0" VerticalAlignment="Top" Height="42" Width="20" RequestedTheme="Dark" />
+        <CheckBox x:ConnectionId='8' x:Name="SundayCheckbox"  HorizontalAlignment="Left" Margin="405,105,0,0" VerticalAlignment="Top" Height="42" Width="20" RequestedTheme="Dark" />
+        <TextBlock x:ConnectionId='9' x:Name="MondayTextblock" FontSize="25" HorizontalAlignment="Left" Margin="39,73,0,0" Text="Mon" TextWrapping="Wrap" VerticalAlignment="Top" Height="33" Width="61" Foreground="White"/>
+        <TextBlock x:ConnectionId='10' x:Name="TuesdayTextblock" FontSize="25" HorizontalAlignment="Left" Margin="100,73,0,0" Text="Tue" TextWrapping="Wrap" VerticalAlignment="Top" Height="33" Width="61" Foreground="White"/>
+        <TextBlock x:ConnectionId='11' x:Name="WednesdayTextblock" FontSize="25" HorizontalAlignment="Left" Margin="155,73,0,0" Text="Wed" TextWrapping="Wrap" VerticalAlignment="Top" Height="33" Width="61" Foreground="White"/>
+        <TextBlock x:ConnectionId='12' x:Name="ThursdayTextblock" FontSize="25" HorizontalAlignment="Left" Margin="222,73,0,0" Text="Thu" TextWrapping="Wrap" VerticalAlignment="Top" Height="33" Width="61" Foreground="White"/>
+        <TextBlock x:ConnectionId='13' x:Name="FridayTextblock" FontSize="25" HorizontalAlignment="Left" Margin="283,73,0,0" Text="Fri" TextWrapping="Wrap" VerticalAlignment="Top" Height="33" Width="61" Foreground="White"/>
+        <TextBlock x:ConnectionId='14' x:Name="SaturdayTextblock" FontSize="25" HorizontalAlignment="Left" Margin="335,73,0,0" Text="Sat" TextWrapping="Wrap" VerticalAlignment="Top" Height="33" Width="61" Foreground="White"/>
+        <TextBlock x:ConnectionId='15' x:Name="SundayTextblock" FontSize="25" HorizontalAlignment="Left" Margin="395,73,0,0" Text="Sun" TextWrapping="Wrap" VerticalAlignment="Top" Height="33" Width="61" Foreground="White"/>
+        <TimePicker x:ConnectionId='16' x:Name="WeeklyTimePicker"  FontSize="80" HorizontalAlignment="Center" Margin="0,166,0,-285" VerticalAlignment="Top" Width="431" RequestedTheme="Dark"/>
+        <ListView x:ConnectionId='17' x:Name="WeeklyList"  HorizontalAlignment="Center" Height="358" Margin="25,390,24,-748" VerticalAlignment="Top" Width="431" RequestedTheme="Dark" Foreground="White">
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="Foreground" Value="AntiqueWhite"></Setter>
+                    <Setter Property="FontSize" Value="40"></Setter>
+                </Style>
+            </ListView.ItemContainerStyle>
 
+            <x:String>Item 1</x:String>
+            <x:String>Item 2</x:String>
+            <x:String>Item 3</x:String>
+            <x:String>Item 4</x:String>
+            <x:String>Item 5</x:String>
+        </ListView>
+        <TextBlock x:ConnectionId='18' x:Name="setTimersTextblock" FontSize="25" HorizontalAlignment="Center" Margin="37,315,40,-362" Text="Your set timers:" TextWrapping="Wrap" VerticalAlignment="Top" Height="47" Width="403" Foreground="White"                                              />
     </Grid>
 </Page>
 

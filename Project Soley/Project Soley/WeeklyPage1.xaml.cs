@@ -26,5 +26,10 @@ namespace Project_Soley
         {
             this.InitializeComponent();
         }
+
+        private void WeeklyTimePicker_TimeChanged(object sender, TimePickerValueChangedEventArgs e)
+        {
+
+        }
     }
 }
