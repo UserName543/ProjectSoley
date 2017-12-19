@@ -15,17 +15,24 @@
 
     <Grid Background="Black" RenderTransformOrigin="0.5,0.5">
         <Grid.Projection>
-            <PlaneProjection RotationZ="90"/>
+            <PlaneProjection RotationZ="0"/> <!-- ROTATE THIS  -90-->
         </Grid.Projection>
         <Grid.RenderTransform>
-            <CompositeTransform Rotation="0" TranslateX="0" TranslateY="-160"/>
+            <CompositeTransform Rotation="0" TranslateX="0" TranslateY="0"/> <!--TRANSLATE Y -160 -->
         </Grid.RenderTransform>
         <Grid.RowDefinitions>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBlock x:ConnectionId='1' x:Name="Time" FontSize="170" Text="13:37" Foreground="AntiqueWhite" HorizontalAlignment="Center"  Margin="0,-43,0,0" Width="480" VerticalAlignment="Top" Height="226"/>
-        <TextBlock x:ConnectionId='2' x:Name="Seconds" FontSize="70" Text="37" Foreground="AntiqueWhite" HorizontalAlignment="Center"  Margin="400,64,5,0" Width="75" VerticalAlignment="Top" Height="83"/>
-        <Button x:ConnectionId='3' x:Name="optionButton"  HorizontalAlignment="Left" Margin="0,758,0,0" VerticalAlignment="Bottom" Height="42" Width="101"                                                                                                                      RenderTransformOrigin="0.5,0.5" >
+        <!--  Margin="0,-43,0,0" Width="480" VerticalAlignment="Top" Height="226" -->
+        <TextBlock x:ConnectionId='1' x:Name="GpioStatus" Text="Waiting to initialize GPIO..." Margin="10,200,10,10" TextAlignment="Center" FontSize="26.667" Foreground="White" />
+        <Ellipse x:ConnectionId='2' x:Name="LED" Fill="LightGray" Stroke="White" Width="100" Height="100" Margin="302,-165,78,65" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <CompositeTransform Rotation="-101.797"/>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <TextBlock x:ConnectionId='3' x:Name="Time" FontSize="170" Text="13:37" Foreground="AntiqueWhite" HorizontalAlignment="Center"  Margin="0,-43,0,0" Width="480" VerticalAlignment="Top" Height="226"/>
+        <TextBlock x:ConnectionId='4' x:Name="Seconds" FontSize="70" Text="37" Foreground="AntiqueWhite" HorizontalAlignment="Center"  Margin="400,64,5,0" Width="75" VerticalAlignment="Top" Height="83"/>
+        <Button x:ConnectionId='5' x:Name="optionButton"  HorizontalAlignment="Left" Margin="14,391,0,-433" VerticalAlignment="Top" Height="42" Width="101"                                                                                         RenderTransformOrigin="0.5,0.5" >
             <Button.Projection>
                 <PlaneProjection RotationZ="0"/>
             </Button.Projection>
@@ -35,18 +42,18 @@
             <Button.Flyout>
                 <MenuFlyout Placement="Bottom">
 
-                    <MenuFlyoutItem Text="One time alarm" />
-                    <MenuFlyoutItem Text="Weekly alarm" />
+                    <MenuFlyoutItem x:ConnectionId='7' x:Name="one_time_alarm" Text="One time alarm"                                />
+                    <MenuFlyoutItem x:ConnectionId='8' x:Name="weekly_alarm" Text="Weekly alarm"                             />
                     <MenuFlyoutSeparator />
                     <MenuFlyoutItem Text="Example" />
                 </MenuFlyout>
 
             </Button.Flyout>
             <Button.Background>
-                <ImageBrush ImageSource="gear_settings_cog_preferences-512.png" Stretch="Uniform"/>
+                <ImageBrush ImageSource="better_gear_settings.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <TextBox x:ConnectionId='4' x:Name="testbox" HorizontalAlignment="Left" Margin="122,376,0,-408" FontSize="60" Foreground="AntiqueWhite" Text="TEXTBOX" VerticalAlignment="Top"/>
+        <TextBox x:ConnectionId='6' x:Name="testbox" HorizontalAlignment="Left" Margin="122,376,0,-408" FontSize="60" Foreground="AntiqueWhite" Text="TEXTBOX" VerticalAlignment="Top"/>
 
 
 

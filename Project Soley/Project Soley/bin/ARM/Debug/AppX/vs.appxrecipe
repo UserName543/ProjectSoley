@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\bin\ARM\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-18T15:00:23.923</Modified>
+      <Modified>2017-12-19T14:26:55.928</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\bin\ARM\Debug\Project Soley.exe">
       <PackagePath>entrypoint\Project Soley.exe</PackagePath>
-      <Modified>2017-12-18T15:00:23.335</Modified>
+      <Modified>2017-12-19T14:26:55.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sascha\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -491,9 +491,17 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T21:15:04.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\better_gear_settings.png">
+      <PackagePath>better_gear_settings.png</PackagePath>
+      <Modified>2017-12-19T11:11:38.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\better_gear_settings_pushed.png">
+      <PackagePath>better_gear_settings_pushed.png</PackagePath>
+      <Modified>2017-12-19T11:11:38.115</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\gear_settings_cog_preferences-512.png">
       <PackagePath>gear_settings_cog_preferences-512.png</PackagePath>
-      <Modified>2017-12-18T11:49:40.604</Modified>
+      <Modified>2017-12-19T11:11:40.090</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -535,7 +543,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\bin\ARM\Debug\Project Soley.xr.xml">
       <PackagePath>Project Soley.xr.xml</PackagePath>
-      <Modified>2017-12-18T15:00:23.155</Modified>
+      <Modified>2017-12-19T14:12:50.292</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -544,11 +552,11 @@
     <AppxPackagedFile Include="C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\bin\ARM\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-18T15:00:23.774</Modified>
+      <Modified>2017-12-19T14:12:51.941</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\bin\ARM\Debug\Core\Project Soley.exe">
       <PackagePath>Project Soley.exe</PackagePath>
-      <Modified>2017-12-18T15:00:23.917</Modified>
+      <Modified>2017-12-19T14:26:55.922</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

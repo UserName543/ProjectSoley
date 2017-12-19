@@ -12,7 +12,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <TextBlock FontSize="25" HorizontalAlignment="Center" Margin="42,16,35,0" Text="For what time should I set an alarm?" TextWrapping="Wrap" VerticalAlignment="Top" Height="47" Width="403" Foreground="White" SelectionChanged="TextBlock_SelectionChanged"/>
-        <CheckBox x:Name="MondayCheckbox"  HorizontalAlignment="Left" Margin="55,105,0,0" VerticalAlignment="Top" Height="42" Width="20" RequestedTheme="Dark" />
+        <CheckBox x:Name="MondayCheckbox"  HorizontalAlignment="Left" Margin="55,105,0,0" VerticalAlignment="Top" Height="42" Width="20" RequestedTheme="Dark" Checked="MondayCheckbox_Checked" />
         <CheckBox x:Name="TuesdayCheckbox"  HorizontalAlignment="Left" Margin="111,105,0,0" VerticalAlignment="Top" Height="42" Width="20" RequestedTheme="Dark" />
         <CheckBox x:Name="WednesdayCheckbox"  HorizontalAlignment="Left" Margin="170,105,0,0" VerticalAlignment="Top" Height="42" Width="20" RequestedTheme="Dark" />
         <CheckBox x:Name="ThursdayCheckbox"  HorizontalAlignment="Left" Margin="230,105,0,0" VerticalAlignment="Top" Height="42" Width="20" RequestedTheme="Dark" />
@@ -27,7 +27,7 @@
         <TextBlock x:Name="SaturdayTextblock" FontSize="25" HorizontalAlignment="Left" Margin="335,73,0,0" Text="Sat" TextWrapping="Wrap" VerticalAlignment="Top" Height="33" Width="61" Foreground="White"/>
         <TextBlock x:Name="SundayTextblock" FontSize="25" HorizontalAlignment="Left" Margin="395,73,0,0" Text="Sun" TextWrapping="Wrap" VerticalAlignment="Top" Height="33" Width="61" Foreground="White"/>
         <TimePicker x:Name="WeeklyTimePicker"  FontSize="80" HorizontalAlignment="Center" Margin="0,166,0,-285" VerticalAlignment="Top" Width="431" RequestedTheme="Dark" TimeChanged="WeeklyTimePicker_TimeChanged"/>
-        <ListView x:Name="WeeklyList"  HorizontalAlignment="Center" Height="312" Margin="25,450,24,-702" VerticalAlignment="Top" Width="431" RequestedTheme="Dark" Foreground="White">
+        <ListView x:Name="WeeklyList"  HorizontalAlignment="Center" Height="312" Margin="25,450,292,-762" VerticalAlignment="Top" Width="163" RequestedTheme="Dark" Foreground="White">
             <ListView.ItemContainerStyle>
                 <Style TargetType="ListViewItem">
                     <Setter Property="Foreground" Value="AntiqueWhite"></Setter>
@@ -41,7 +41,8 @@
             <x:String>Item 4</x:String>
             <x:String>Item 5</x:String>
         </ListView>
-        <TextBlock x:Name="setTimersTextblock" FontSize="25" HorizontalAlignment="Center" Margin="37,395,40,-362" Text="Your set timers:" TextWrapping="Wrap" VerticalAlignment="Top" Height="47" Width="403" Foreground="White"/>
-        <Button Content="Set timer" FontSize="30" HorizontalAlignment="Center" Margin="0,309,0,-368" VerticalAlignment="Top" RequestedTheme="Dark" Height="59" Width="155"/>
+        <TextBlock x:Name="setTimersTextblock" FontSize="25" HorizontalAlignment="Center" Margin="37,395,40,-362" Text="Your set timers:" TextWrapping="Wrap" VerticalAlignment="Top" Height="47" Width="403" Foreground="White" SelectionChanged="setTimersTextblock_SelectionChanged"/>
+        <Button Content="Set timer" FontSize="30" HorizontalAlignment="Center" Margin="0,309,0,-368" VerticalAlignment="Top" RequestedTheme="Dark" Height="59" Width="155" Click="Button_Click"/>
+        <TextBox x:Name="testbox2" HorizontalAlignment="Left" Margin="243,445,0,-714" Text="TextBox" VerticalAlignment="Top" Height="269" Width="183" Foreground="White"/>
     </Grid>
 </Page>

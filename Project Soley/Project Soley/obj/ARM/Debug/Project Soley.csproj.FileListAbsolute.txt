@@ -426,3 +426,8 @@ C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\obj\AR
 C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\obj\ARM\Debug\resources.en-us.resfiles
 C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\obj\ARM\Debug\resources.en-us.resfiles.intermediate
 C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\obj\ARM\Debug\ProjectArchitectures.txt
+C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\bin\ARM\Debug\WeeklyPage1.xbf
+C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\obj\ARM\Debug\WeeklyPage1.g.i.cs
+C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\obj\ARM\Debug\WeeklyPage1.g.cs
+C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\obj\ARM\Debug\WeeklyPage1.xaml
+C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\obj\ARM\Debug\WeeklyPage1.xbf

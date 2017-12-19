@@ -22,14 +22,46 @@ namespace Project_Soley
     /// </summary>
     public sealed partial class WeeklyPage1 : Page
     {
+        
+        private TimeSpan _time;
+
+        ClockLogic newWeeklyAlarm;
+
         public WeeklyPage1()
         {
             this.InitializeComponent();
+
+       
+            
+
+            
         }
 
         private void WeeklyTimePicker_TimeChanged(object sender, TimePickerValueChangedEventArgs e)
         {
+            _time =  WeeklyTimePicker.Time;
 
+            //testbox2.Text = _mon.ToString() + _tue.ToString() + _wed.ToString() + _thu.ToString() + _fri.ToString() + _sat.ToString() + _sun.ToString() + _time;
+        }
+
+        private void MondayCheckbox_Checked(object sender, RoutedEventArgs e)
+        {
+              
+        }
+
+        private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void setTimersTextblock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            newWeeklyAlarm = new ClockLogic(MondayCheckbox.IsChecked, TuesdayCheckbox.IsChecked, WednesdayCheckbox.IsChecked, ThursdayCheckbox.IsChecked, FridayCheckbox.IsChecked, SaturdayCheckbox.IsChecked, SundayCheckbox.IsChecked, _time);
         }
     }
 }

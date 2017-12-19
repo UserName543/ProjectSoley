@@ -26,7 +26,18 @@ namespace Project_Soley
     public sealed partial class MainPage : Page
     {
         DispatcherTimer Timer = new DispatcherTimer();
-        private const int LED_PIN = 24;
+        private const int LED_PIN = 24;     //green
+        private const int LED_PIN1 = 17;    //red
+        private const int LED_PIN2 = 22;    //blue
+        private const int LED_PIN3 = 27;    //white (remote lamp)
+        private GpioPin pin;
+        private GpioPin pin1;
+        private GpioPin pin2;
+        private GpioPinValue pinValue;
+        private DispatcherTimer timer;
+        private SolidColorBrush redBrush = new SolidColorBrush(Windows.UI.Colors.Red);
+        private SolidColorBrush grayBrush = new SolidColorBrush(Windows.UI.Colors.LightGray);
+
 
         public MainPage()
         {
@@ -52,6 +63,19 @@ namespace Project_Soley
     {
         Time.Text = DateTime.Now.ToString("hh:mm");
         Seconds.Text = DateTime.Now.ToString("ss");
+
+            if (pinValue == GpioPinValue.High)
+            {
+                pinValue = GpioPinValue.Low;
+                pin.Write(pinValue);
+                LED.Fill = redBrush;
+            }
+            else
+            {
+                pinValue = GpioPinValue.High;
+                pin.Write(pinValue);
+                LED.Fill = grayBrush;
+            }
         }
 
         
@@ -65,19 +89,24 @@ namespace Project_Soley
         var gpio = GpioController.GetDefault();
 
         // Show an error if there is no GPIO controller
-        /*if (gpio == null)
+        if (gpio == null)
         {
             pin = null;
             GpioStatus.Text = "There is no GPIO controller on this device.";
             return;
         }
 
-        pin = gpio.OpenPin(LED_PIN);
+        pin = gpio.OpenPin(LED_PIN2);
+        pin1 = gpio.OpenPin(LED_PIN);
+        pin2 = gpio.OpenPin(LED_PIN1);
         pinValue = GpioPinValue.High;
         pin.Write(pinValue);
-        pin.SetDriveMode(GpioPinDriveMode.Output);
-
-        GpioStatus.Text = "GPIO pin initialized correctly.";*/
+        pin1.Write(pinValue);
+        pin2.Write(pinValue);
+            pin.SetDriveMode(GpioPinDriveMode.Output);
+            pin2.SetDriveMode(GpioPinDriveMode.Output);
+            pin1.SetDriveMode(GpioPinDriveMode.Output);
+            GpioStatus.Text = "GPIO pin initialized correctly.";
 
     }
 
@@ -106,5 +135,7 @@ namespace Project_Soley
         {
 
         }
+
+        
     }
 }

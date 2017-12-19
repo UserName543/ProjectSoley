@@ -367,6 +367,12 @@
     <AppxPackagedFile Include="C:\Users\Sascha\.nuget\packages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\better_gear_settings.png">
+      <PackagePath>better_gear_settings.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\better_gear_settings_pushed.png">
+      <PackagePath>better_gear_settings_pushed.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\gear_settings_cog_preferences-512.png">
       <PackagePath>gear_settings_cog_preferences-512.png</PackagePath>
     </AppxPackagedFile>

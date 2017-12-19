@@ -24,6 +24,12 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <!--  Margin="0,-43,0,0" Width="480" VerticalAlignment="Top" Height="226" -->
+        <TextBlock x:Name="GpioStatus" Text="Waiting to initialize GPIO..." Margin="10,200,10,10" TextAlignment="Center" FontSize="26.667" Foreground="White" />
+        <Ellipse x:Name="LED" Fill="LightGray" Stroke="White" Width="100" Height="100" Margin="302,-165,78,65" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <CompositeTransform Rotation="-101.797"/>
+            </Ellipse.RenderTransform>
+        </Ellipse>
         <TextBlock x:Name="Time" FontSize="170" Text="13:37" Foreground="AntiqueWhite" HorizontalAlignment="Center"  Margin="0,-43,0,0" Width="480" VerticalAlignment="Top" Height="226"/>
         <TextBlock x:Name="Seconds" FontSize="70" Text="37" Foreground="AntiqueWhite" HorizontalAlignment="Center"  Margin="400,64,5,0" Width="75" VerticalAlignment="Top" Height="83"/>
         <Button x:Name="optionButton"  HorizontalAlignment="Left" Margin="14,391,0,-433" VerticalAlignment="Top" Height="42" Width="101" PointerEntered="optionButton_PointerEntered" PointerExited="optionButton_PointerExited" RenderTransformOrigin="0.5,0.5" >
