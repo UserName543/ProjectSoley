@@ -1,1 +1,1 @@
-C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\Project Soley.csproj;arm
+C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\Project Soley.csproj;arm

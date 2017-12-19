@@ -100,6 +100,9 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WeeklyPage1.xaml.cs">
+      <DependentUpon>WeeklyPage1.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -108,6 +111,8 @@
     <None Include="Project Soley_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="better_gear_settings.png" />
+    <Content Include="better_gear_settings_pushed.png" />
     <Content Include="gear_settings_cog_preferences-512.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
@@ -126,6 +131,10 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WeeklyPage1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>

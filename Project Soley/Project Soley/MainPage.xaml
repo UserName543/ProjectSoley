@@ -13,26 +13,41 @@
         <CompositeTransform Rotation="0"/>
     </Page.RenderTransform>
 
-    <Grid Background="Black">
+    <Grid Background="Black" RenderTransformOrigin="0.5,0.5">
+        <Grid.Projection>
+            <PlaneProjection RotationZ="0"/> <!-- ROTATE THIS  -90-->
+        </Grid.Projection>
+        <Grid.RenderTransform>
+            <CompositeTransform Rotation="0" TranslateX="0" TranslateY="0"/> <!--TRANSLATE Y -160 -->
+        </Grid.RenderTransform>
         <Grid.RowDefinitions>
             <RowDefinition/>
         </Grid.RowDefinitions>
+        <!--  Margin="0,-43,0,0" Width="480" VerticalAlignment="Top" Height="226" -->
         <TextBlock x:Name="Time" FontSize="170" Text="13:37" Foreground="AntiqueWhite" HorizontalAlignment="Center"  Margin="0,-43,0,0" Width="480" VerticalAlignment="Top" Height="226"/>
         <TextBlock x:Name="Seconds" FontSize="70" Text="37" Foreground="AntiqueWhite" HorizontalAlignment="Center"  Margin="400,64,5,0" Width="75" VerticalAlignment="Top" Height="83"/>
-        <Button x:Name="optionButton"  HorizontalAlignment="Left" Margin="0,758,0,0" VerticalAlignment="Bottom" Height="42" Width="101" Click="optionButton_Click" PointerEntered="optionButton_PointerEntered" PointerExited="optionButton_PointerExited" >
+        <Button x:Name="optionButton"  HorizontalAlignment="Left" Margin="14,391,0,-433" VerticalAlignment="Top" Height="42" Width="101" PointerEntered="optionButton_PointerEntered" PointerExited="optionButton_PointerExited" RenderTransformOrigin="0.5,0.5" >
+            <Button.Projection>
+                <PlaneProjection RotationZ="0"/>
+            </Button.Projection>
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="0"/>
+            </Button.RenderTransform>
             <Button.Flyout>
-                <MenuFlyout>
-                    <MenuFlyoutItem Text="One time alarm" />
-                    <MenuFlyoutItem Text="Weekly alarm" />
+                <MenuFlyout Placement="Bottom">
+
+                    <MenuFlyoutItem x:Name="one_time_alarm" Text="One time alarm" Tapped="one_time_alarm_Tapped" />
+                    <MenuFlyoutItem x:Name="weekly_alarm" Text="Weekly alarm" Tapped="weekly_alarm_Tapped"/>
                     <MenuFlyoutSeparator />
                     <MenuFlyoutItem Text="Example" />
-                 </MenuFlyout>
+                </MenuFlyout>
 
             </Button.Flyout>
             <Button.Background>
-                <ImageBrush ImageSource="gear_settings_cog_preferences-512.png" Stretch="Uniform"/>
+                <ImageBrush ImageSource="better_gear_settings.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
+        <TextBox x:Name="testbox" HorizontalAlignment="Left" Margin="122,376,0,-408" FontSize="60" Foreground="AntiqueWhite" Text="TEXTBOX" VerticalAlignment="Top"/>
 
 
 

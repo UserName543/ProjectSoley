@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>48e670d2-5e04-4011-9d06-58ccb6ceccb5</PackageIdentityName>
     <PackageIdentityPublisher>CN=Sascha</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\bin\x86\Debug\Project Soley.exe">
+    <AppxPackagedFile Include="C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\bin\x86\Debug\Project Soley.exe">
       <PackagePath>entrypoint\Project Soley.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sascha\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
@@ -370,47 +370,56 @@
     <AppxPackagedFile Include="C:\Users\Sascha\.nuget\packages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\better_gear_settings.png">
+      <PackagePath>better_gear_settings.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\better_gear_settings_pushed.png">
+      <PackagePath>better_gear_settings_pushed.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\gear_settings_cog_preferences-512.png">
+      <PackagePath>gear_settings_cog_preferences-512.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\bin\x86\Debug\Project Soley.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\bin\x86\Debug\Project Soley.xr.xml">
       <PackagePath>Project Soley.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sascha\documents\visual studio 2017\Projects\Project Soley\Project Soley\bin\x86\Debug\Core\Project Soley.exe">
+    <AppxPackagedFile Include="C:\Users\Sascha\Documents\GitHub\ProjectSoley\Project Soley\Project Soley\bin\x86\Debug\Core\Project Soley.exe">
       <PackagePath>Project Soley.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

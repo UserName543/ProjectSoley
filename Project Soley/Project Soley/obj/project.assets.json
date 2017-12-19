@@ -25735,11 +25735,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sascha\\documents\\visual studio 2017\\Projects\\Project Soley\\Project Soley\\Project Soley.csproj",
+      "projectUniqueName": "C:\\Users\\Sascha\\Documents\\GitHub\\ProjectSoley\\Project Soley\\Project Soley\\Project Soley.csproj",
       "projectName": "Project Soley",
-      "projectPath": "C:\\Users\\Sascha\\documents\\visual studio 2017\\Projects\\Project Soley\\Project Soley\\Project Soley.csproj",
+      "projectPath": "C:\\Users\\Sascha\\Documents\\GitHub\\ProjectSoley\\Project Soley\\Project Soley\\Project Soley.csproj",
       "packagesPath": "C:\\Users\\Sascha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sascha\\documents\\visual studio 2017\\Projects\\Project Soley\\Project Soley\\obj\\",
+      "outputPath": "C:\\Users\\Sascha\\Documents\\GitHub\\ProjectSoley\\Project Soley\\Project Soley\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

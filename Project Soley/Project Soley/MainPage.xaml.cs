@@ -83,17 +83,28 @@ namespace Project_Soley
 
         private void optionButton_Click(object sender, RoutedEventArgs e)
         {
-
+            testbox.Text = "Button is clicked";
         }
 
         private void optionButton_PointerEntered(object sender, PointerRoutedEventArgs e)
         {
-            optionButton.UseSystemFocusVisuals = false;
+
         }
 
         private void optionButton_PointerExited(object sender, PointerRoutedEventArgs e)
         {
             optionButton.UseSystemFocusVisuals = false;
+        }
+
+        
+        private void weekly_alarm_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(WeeklyPage1));
+        }
+
+        private void one_time_alarm_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+
         }
     }
 }
