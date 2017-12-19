@@ -83,7 +83,9 @@ namespace Project_Soley
 
         private void optionButton_Click(object sender, RoutedEventArgs e)
         {
-            testbox.Text = "Button is clicked";
+            //testbox.Text = "Button is clicked";
+            CalendarLogic c = new CalendarLogic();
+            c.GetCalendarData();
         }
 
         private void optionButton_PointerEntered(object sender, PointerRoutedEventArgs e)

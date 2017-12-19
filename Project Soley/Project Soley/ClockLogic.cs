@@ -17,7 +17,7 @@ namespace Project_Soley
         Boolean _sun;
         DateTime _time;
 
-        DateTime currentTime = new DateTime;
+        DateTime currentTime = new DateTime();
 
         //Constructor for weekly timer
         public ClockLogic(Boolean mon, Boolean tue, Boolean wed, Boolean thu, Boolean fri, Boolean sat, Boolean sun, DateTime time)

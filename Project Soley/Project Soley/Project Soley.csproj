@@ -95,6 +95,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CalendarLogic.cs" />
     <Compile Include="ClockLogic.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -108,6 +109,7 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="client_secret.json" />
     <None Include="Project Soley_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
@@ -138,8 +140,11 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Google.Apis.Calendar.v3">
+      <Version>1.32.0.1076</Version>
+    </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
-      <Version>6.0.4</Version>
+      <Version>6.0.5</Version>
     </PackageReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

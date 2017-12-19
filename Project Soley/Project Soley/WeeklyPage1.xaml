@@ -11,7 +11,7 @@
         <Grid.RowDefinitions>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBlock FontSize="25" HorizontalAlignment="Center" Margin="42,16,35,0" Text="For what time should I set an alarm?" TextWrapping="Wrap" VerticalAlignment="Top" Height="47" Width="403" Foreground="White" SelectionChanged="TextBlock_SelectionChanged"/>
+        <TextBlock FontSize="25" HorizontalAlignment="Center" Margin="42,16,35,0" Text="For what time should I set an alarm?" TextWrapping="Wrap" VerticalAlignment="Top" Height="47" Width="403" Foreground="White"/>
         <CheckBox x:Name="MondayCheckbox"  HorizontalAlignment="Left" Margin="55,105,0,0" VerticalAlignment="Top" Height="42" Width="20" RequestedTheme="Dark" />
         <CheckBox x:Name="TuesdayCheckbox"  HorizontalAlignment="Left" Margin="111,105,0,0" VerticalAlignment="Top" Height="42" Width="20" RequestedTheme="Dark" />
         <CheckBox x:Name="WednesdayCheckbox"  HorizontalAlignment="Left" Margin="170,105,0,0" VerticalAlignment="Top" Height="42" Width="20" RequestedTheme="Dark" />
