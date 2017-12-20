@@ -63,7 +63,7 @@ namespace Project_Soley
     {
         Time.Text = DateTime.Now.ToString("hh:mm");
         Seconds.Text = DateTime.Now.ToString("ss");
-
+            /*
             if (pinValue == GpioPinValue.High)
             {
                 pinValue = GpioPinValue.Low;
@@ -75,7 +75,7 @@ namespace Project_Soley
                 pinValue = GpioPinValue.High;
                 pin.Write(pinValue);
                 LED.Fill = grayBrush;
-            }
+            }*/
         }
 
         
