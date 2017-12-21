@@ -1,20 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
+using System.Collections.ObjectModel;
+using Windows.Devices.Gpio;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.Devices.Gpio;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
-using Windows.UI.Core;
-using Windows.Devices.Input;
 
 // Die Elementvorlage "Leere Seite" wird unter https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x407 dokumentiert.
 
@@ -26,6 +16,11 @@ namespace Project_Soley
     public sealed partial class MainPage : Page
     {
         DispatcherTimer Timer = new DispatcherTimer();
+        DispatcherTimer alarmTimer = new DispatcherTimer();
+        WeeklyPage1 WeeklyPage = new WeeklyPage1();
+        
+        ObservableCollection<ClockLogic> alarms = new ObservableCollection<ClockLogic>();
+        ClockLogic alarmClock = new ClockLogic("test", false, false, false, false, false, false, false, DateTime.Now);
         private const int LED_PIN = 24;     //green
         private const int LED_PIN1 = 17;    //red
         private const int LED_PIN2 = 22;    //blue
@@ -42,13 +37,15 @@ namespace Project_Soley
         public MainPage()
         {
             this.InitializeComponent();
-
+            timerForClock();
 
             //Timer Timer = new Timer();
             DataContext = this;
-            Timer.Tick += Timer_Tick;
-            Timer.Interval = new TimeSpan(0, 0, 1);
-            Timer.Start();
+            
+
+            /*alarmTimer.Tick += alarmTimer_Tick;
+            alarmTimer.Interval = new TimeSpan(0, 1, 0);
+            alarmTimer.Start();*/
 
             InitGPIO();
             /*if (pin != null)
@@ -59,64 +56,73 @@ namespace Project_Soley
 
    
 
-    private void Timer_Tick(object sender, object e)
-    {
-        Time.Text = DateTime.Now.ToString("hh:mm");
-        Seconds.Text = DateTime.Now.ToString("ss");
-            /*
-            if (pinValue == GpioPinValue.High)
+        public async void timerForClock()
+        {
+            Timer.Tick += Timer_Tick;
+            Timer.Interval = new TimeSpan(0, 0, 1);
+            Timer.Start();
+        }
+
+        private void Timer_Tick(object sender, object e)
+        {
+            Time.Text = DateTime.Now.ToString("hh:mm");
+            Seconds.Text = DateTime.Now.ToString("ss");
+
+                alarms = WeeklyPage.alarms;
+                foreach (var alarm in alarms)
+                {
+                    alarmClock.alarm(alarm.getTime());
+                }
+
+                /*
+                if (pinValue == GpioPinValue.High)
+                {
+                    pinValue = GpioPinValue.Low;
+                    pin.Write(pinValue);
+                    LED.Fill = redBrush;
+                }
+                else
+                {
+                    pinValue = GpioPinValue.High;
+                    pin.Write(pinValue);
+                    LED.Fill = grayBrush;
+                }*/
+        }
+
+        private void alarmTimer_Tick(object sender, object e)
+        {
+            /*alarms = WeeklyPage.alarms;
+            foreach (var alarm in alarms)
             {
-                pinValue = GpioPinValue.Low;
-                pin.Write(pinValue);
-                LED.Fill = redBrush;
-            }
-            else
-            {
-                pinValue = GpioPinValue.High;
-                pin.Write(pinValue);
-                LED.Fill = grayBrush;
+                alarmClock.alarm(alarm.getTime());
             }*/
         }
 
-        
-       
-    
 
 
-
-    public void InitGPIO()
-    {
-        var gpio = GpioController.GetDefault();
-
-        // Show an error if there is no GPIO controller
-        if (gpio == null)
+        public void InitGPIO()
         {
-            pin = null;
-            GpioStatus.Text = "There is no GPIO controller on this device.";
-            return;
-        }
+            var gpio = GpioController.GetDefault();
 
-        pin = gpio.OpenPin(LED_PIN2);
-        pin1 = gpio.OpenPin(LED_PIN);
-        pin2 = gpio.OpenPin(LED_PIN1);
-        pinValue = GpioPinValue.High;
-        pin.Write(pinValue);
-        pin1.Write(pinValue);
-        pin2.Write(pinValue);
+            // Show an error if there is no GPIO controller
+            if (gpio == null)
+            {
+                pin = null;
+                //GpioStatus.Text = "There is no GPIO controller on this device.";
+                return;
+            }
+
+            pin = gpio.OpenPin(LED_PIN2);
+            pin1 = gpio.OpenPin(LED_PIN);
+            pin2 = gpio.OpenPin(LED_PIN1);
+            pinValue = GpioPinValue.High;
+            pin.Write(pinValue);
+            pin1.Write(pinValue);
+            pin2.Write(pinValue);
             pin.SetDriveMode(GpioPinDriveMode.Output);
             pin2.SetDriveMode(GpioPinDriveMode.Output);
             pin1.SetDriveMode(GpioPinDriveMode.Output);
-            GpioStatus.Text = "GPIO pin initialized correctly.";
-
-    }
-
-        private void optionButton_Click(object sender, RoutedEventArgs e)
-        {
-            testbox.Text = "Button is clicked";
-        }
-
-        private void optionButton_PointerEntered(object sender, PointerRoutedEventArgs e)
-        {
+            //GpioStatus.Text = "GPIO pin initialized correctly.";
 
         }
 
@@ -136,6 +142,9 @@ namespace Project_Soley
 
         }
 
-        
+        private void SoundButton_Click(object sender, RoutedEventArgs e)
+        {
+            alarmClock.playSound();
+        }
     }
 }

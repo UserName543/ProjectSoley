@@ -111,8 +111,11 @@
     <None Include="Project Soley_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="376318__jimhancock__tada.wav" />
+    <Content Include="arrow_left.png" />
     <Content Include="better_gear_settings.png" />
     <Content Include="better_gear_settings_pushed.png" />
+    <Content Include="Display_Picture.jpg" />
     <Content Include="gear_settings_cog_preferences-512.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />

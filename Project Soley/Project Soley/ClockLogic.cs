@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Windows.UI.Xaml.Controls;
 
 namespace Project_Soley
 {
@@ -16,18 +13,18 @@ namespace Project_Soley
         private bool _fri = false;
         private bool _sat = false;
         private bool _sun = false;
-        private TimeSpan _time;
+        private DateTime _time;
 
         public String Name { get; set; }
         public String Days { get; set; }
-        public TimeSpan Time { get; set; }
+        public String Time { get; set; }
         
 
         DateTime _currentTime = DateTime.Now;
         //TimeSpan timeDifference;
 
-        //Constructor for weekly timer  NAME!?!
-        public ClockLogic(String name, bool mon, bool tue, bool wed, bool thu, bool fri, bool sat, bool sun, TimeSpan time)
+        
+        public ClockLogic(String name, bool mon, bool tue, bool wed, bool thu, bool fri, bool sat, bool sun, DateTime time)
         {
             this._name = name;
             this._mon = mon;
@@ -38,13 +35,6 @@ namespace Project_Soley
             this._sat = sat;
             this._sun = sun;
             this._time = time;
-
-
-        }
-
-        public void ClockLogicToString()
-        {
-
         }
 
         public void setName(String name)
@@ -83,7 +73,7 @@ namespace Project_Soley
         }
 
 
-        public void setTime(TimeSpan setTime)
+        public void setTime(DateTime setTime)
         {
             _time = setTime;
         }
@@ -128,25 +118,94 @@ namespace Project_Soley
             return _sun;
         }
 
-        public TimeSpan getTime()
+        public DateTime getTime()
         {
             return _time;
         }
 
-
-        private void alarm()
+        public string DateTimeToTimePickertoString(DateTime time)
         {
-            DayOfWeek dow = DateTime.Now.DayOfWeek;
+           return time.ToString("HH:mm");
+        }
+
+        public async void playSound()
+        {
+            var element = new MediaElement();
+            var folder = Windows.ApplicationModel.Package.Current.InstalledLocation;
+            //folder = await folder.GetFolderAsync("C:/Users/Sascha/Documents/GitHub/ProjectSoley/Project Soley/Project Soley");
+            var file = await folder.GetFileAsync("376318__jimhancock__tada.wav");
+            var stream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read);
+            element.SetSource(stream, "");
+            element.Play();
+        }
 
 
 
-            /*if(dow.Equals("Monday") && _mon)
+        public void alarm(DateTime alarmTime)
+        {
+
+            int alarmDay = alarmTime.Day;
+            int hourToRing = alarmTime.Hour;
+            int minToRing = alarmTime.Minute;
+
+
+            TimeSpan myDateResult = new TimeSpan();
+
+            if (alarmDay.Equals(DayOfWeek.Monday) && hourToRing.Equals(_currentTime.Hour) && minToRing.Equals(_currentTime.Minute))
             {
-
+                playSound();
             }
-            */
+
+            if (alarmDay.Equals(DayOfWeek.Tuesday) && hourToRing.Equals(_currentTime.Hour) && minToRing.Equals(_currentTime.Minute))
+            {
+                playSound();
+            }
+
+            if (alarmDay.Equals(DayOfWeek.Wednesday) && hourToRing.Equals(_currentTime.Hour) && minToRing.Equals(_currentTime.Minute))
+            {
+                playSound();
+            }
+
+            if (alarmDay.Equals(DayOfWeek.Thursday) && hourToRing.Equals(_currentTime.Hour) && minToRing.Equals(_currentTime.Minute))
+            {
+                playSound();
+            }
+
+            if (alarmDay.Equals(DayOfWeek.Friday) && hourToRing.Equals(_currentTime.Hour) && minToRing.Equals(_currentTime.Minute))
+            {
+                playSound();
+            }
+
+            if (alarmDay.Equals(DayOfWeek.Saturday) && hourToRing.Equals(_currentTime.Hour) && minToRing.Equals(_currentTime.Minute))
+            {
+                playSound();
+            }
+
+            if (alarmDay.Equals(DayOfWeek.Saturday) && hourToRing.Equals(_currentTime.Hour) && minToRing.Equals(_currentTime.Minute))
+            {
+                playSound();
+            }
+            /*myDateResult = myDate1 - myDate2;
+            if (myDate2 > myDate1)
+            {
+                var x = new MessageDialog("Invalid date or time");
+                await x.ShowAsync();
+            }
+            else
+            {
+                string title = "Alarm!";
+                string message = alm_msg.Text;
+                string imgURL = "ms-appx:///Assets/Capture.PNG";
+
+
+
+                /*if(dow.Equals("Monday") && _mon)
+                {
+
+                }
+                */
 
 
         }
-    }
+        }
 }

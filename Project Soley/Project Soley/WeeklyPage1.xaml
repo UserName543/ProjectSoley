@@ -6,8 +6,15 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d" Width="480" Height="800">
-
     <Grid Background="Black" Width="480" Height="800">
+        <Grid.Projection>
+            <PlaneProjection RotationZ="90"/>
+            <!-- ROTATE THIS  -90-->
+        </Grid.Projection>
+        <Grid.RenderTransform>
+            <CompositeTransform TranslateY="0"/>
+            <!--TRANSLATE Y -160 -->
+        </Grid.RenderTransform>
         <Grid.RowDefinitions>
             <RowDefinition/>
         </Grid.RowDefinitions>
@@ -31,24 +38,35 @@
             <ListView.ItemContainerStyle>
                 <Style TargetType="ListViewItem">
                     <Setter Property="Foreground" Value="AntiqueWhite"></Setter>
-                    <Setter Property="FontSize" Value="40"></Setter>
+                    <Setter Property="FontSize" Value="20"></Setter>
                 </Style>
             </ListView.ItemContainerStyle>
             <ListView.ItemTemplate>
             <DataTemplate>
                 <Grid>
-                    <StackPanel>
-                        <TextBlock Text="{Binding Name}"></TextBlock>
-                        <TextBlock Text="{Binding Days}"></TextBlock>
-                        <TextBlock Text="{Binding Time}"></TextBlock>
-                    </StackPanel>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Margin="5,0,5,0" Text="{Binding Name}"></TextBlock>
+                    <TextBlock Grid.RowSpan="2" Grid.Row="1" Margin="5,0,5,0" Text="{Binding Days}"></TextBlock>
+                    <TextBlock Grid.Column="1" Margin="5,0,5,0" Text="{Binding Time}"></TextBlock>
                 </Grid>
             </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
         <TextBlock x:Name="setTimersTextblock" FontSize="25" HorizontalAlignment="Center" Margin="37,476,40,-523" Text="Your set timers:" TextWrapping="Wrap" VerticalAlignment="Top" Height="47" Width="403" Foreground="White" SelectionChanged="setTimersTextblock_SelectionChanged"/>
         <Button Content="Set timer" FontSize="30" HorizontalAlignment="Center" Margin="163,398,162,-457" VerticalAlignment="Top" RequestedTheme="Dark" Height="59" Width="155" Click="Button_Click"/>
-        <TextBox x:Name="AlarmName" FontSize="30" HorizontalAlignment="Center" Margin="25,340,24,-385" Text="Alarm" VerticalAlignment="Top" Height="45" Width="431" RequestedTheme="Dark"/>
+        <TextBox x:Name="AlarmName" FontSize="30" HorizontalAlignment="Center" Margin="25,340,24,-385" Text="Alarm" VerticalAlignment="Top" Height="45" Width="431" RequestedTheme="Dark" TextChanged="AlarmName_TextChanged"/>
         <TextBlock x:Name="AlarmNameTextblock" FontSize="25" HorizontalAlignment="Center" Margin="28,303,49,-340" Text="Give your alarm a name:" TextWrapping="Wrap" VerticalAlignment="Top" Height="37" Width="403" Foreground="White" SelectionChanged="setTimersTextblock_SelectionChanged"/>
+        <Button HorizontalAlignment="Left" Margin="2,2,0,-34" Height="20" Width="30" VerticalAlignment="Top" RequestedTheme="Dark" Click="Button_Click_1">
+            <Button.Background>
+                <ImageBrush ImageSource="arrow_left.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
     </Grid>
 </Page>

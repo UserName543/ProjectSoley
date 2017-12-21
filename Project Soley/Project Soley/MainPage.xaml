@@ -5,60 +5,38 @@
     xmlns:local="using:Project_Soley"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d" Width="480" Height="800" RenderTransformOrigin="0.5,0.5">
-    <Page.Projection>
-        <PlaneProjection RotationX="0" RotationZ="0"/>
-    </Page.Projection>
-    <Page.RenderTransform>
-        <CompositeTransform Rotation="0"/>
-    </Page.RenderTransform>
-
-    <Grid Background="Black" RenderTransformOrigin="0.5,0.5">
+    mc:Ignorable="d" Width="480" Height="800">
+    <Grid Background="Black">
         <Grid.Projection>
-            <PlaneProjection RotationZ="0"/> <!-- ROTATE THIS  -90-->
+            <PlaneProjection RotationZ="-90"/>
+            <!-- ROTATE THIS  -90-->
         </Grid.Projection>
         <Grid.RenderTransform>
-            <CompositeTransform Rotation="0" TranslateX="0" TranslateY="0"/> <!--TRANSLATE Y -160 -->
+            <CompositeTransform TranslateY="-160"/>
+            <!--TRANSLATE Y -160 -->
         </Grid.RenderTransform>
-        <Grid.RowDefinitions>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
-        <!--  Margin="0,-43,0,0" Width="480" VerticalAlignment="Top" Height="226" -->
-        <TextBlock x:Name="GpioStatus" Text="Waiting to initialize GPIO..." Margin="10,200,10,10" TextAlignment="Center" FontSize="26.667" Foreground="White" />
-        <Ellipse x:Name="LED" Fill="LightGray" Stroke="White" Width="100" Height="100" Margin="302,-165,78,65" RenderTransformOrigin="0.5,0.5">
-            <Ellipse.RenderTransform>
-                <CompositeTransform Rotation="-101.797"/>
-            </Ellipse.RenderTransform>
-        </Ellipse>
-        <TextBlock x:Name="Time" FontSize="170" Text="13:37" Foreground="AntiqueWhite" HorizontalAlignment="Center"  Margin="0,-43,0,0" Width="480" VerticalAlignment="Top" Height="226"/>
-        <TextBlock x:Name="Seconds" FontSize="70" Text="37" Foreground="AntiqueWhite" HorizontalAlignment="Center"  Margin="400,64,5,0" Width="75" VerticalAlignment="Top" Height="83"/>
-        <Button x:Name="optionButton"  HorizontalAlignment="Left" Margin="14,391,0,-433" VerticalAlignment="Top" Height="42" Width="101" PointerEntered="optionButton_PointerEntered" PointerExited="optionButton_PointerExited" RenderTransformOrigin="0.5,0.5" >
-            <Button.Projection>
-                <PlaneProjection RotationZ="0"/>
-            </Button.Projection>
-            <Button.RenderTransform>
-                <CompositeTransform Rotation="0"/>
-            </Button.RenderTransform>
+        <TextBlock x:Name="Time" FontSize="170" Text="20:20" Foreground="AntiqueWhite" HorizontalAlignment="Center"  Margin="0,-43,0,0" Width="480" VerticalAlignment="Top" Height="226"/>
+        <TextBlock x:Name="Seconds" FontSize="70"  Foreground="AntiqueWhite" HorizontalAlignment="Center"  Margin="400,64,5,0" Width="75" VerticalAlignment="Top" Height="83"/>
+        <Button x:Name="optionButton"  HorizontalAlignment="Left" Margin="5,740,0,0" VerticalAlignment="Top" Height="42" Width="100" PointerExited="optionButton_PointerExited">
             <Button.Flyout>
                 <MenuFlyout Placement="Bottom">
-
                     <MenuFlyoutItem x:Name="one_time_alarm" Text="One time alarm" Tapped="one_time_alarm_Tapped" />
                     <MenuFlyoutItem x:Name="weekly_alarm" Text="Weekly alarm" Tapped="weekly_alarm_Tapped"/>
                     <MenuFlyoutSeparator />
                     <MenuFlyoutItem Text="Example" />
                 </MenuFlyout>
-
             </Button.Flyout>
             <Button.Background>
                 <ImageBrush ImageSource="better_gear_settings.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <TextBox x:Name="testbox" HorizontalAlignment="Left" Margin="122,376,0,-408" FontSize="60" Foreground="AntiqueWhite" Text="TEXTBOX" VerticalAlignment="Top"/>
-
-
-
+        <TextBlock HorizontalAlignment="Left" Margin="5,240,0,0" Text="Task 2: Walk the fish!" FontSize="20" VerticalAlignment="Top" Width="380" Height="25" RequestedTheme="Dark"/>
+        <TextBlock HorizontalAlignment="Left" Margin="5,200,0,0" Text="Task 1: Walk the dog!" FontSize="20" VerticalAlignment="Top" RequestedTheme="Dark" Height="25" Width="380"/>
+        <TextBlock HorizontalAlignment="Left" Margin="5,280,0,0" Text="Task 3: Walk the car!" FontSize="20" VerticalAlignment="Top" RequestedTheme="Dark" Height="25" Width="380"/>
+        <TextBlock HorizontalAlignment="Left" Margin="5,345,0,0" Text="Traffic jam on the way to your workplace." FontSize="20" VerticalAlignment="Top" RequestedTheme="Dark" Height="25" Width="380"/>
+        <TextBlock HorizontalAlignment="Left" Margin="5,385,0,0" Text="Ice on the streets. Watch out!!!" FontSize="20" VerticalAlignment="Top" RequestedTheme="Dark" Height="25" Width="380"/>
+        <TextBlock HorizontalAlignment="Left" Margin="5,425,0,0" Text="Train derailed in Central Station." FontSize="20" VerticalAlignment="Top" RequestedTheme="Dark" Height="25" Width="380"/>
+        <Image Source="Display_Picture.jpg" Margin="5,450,0,0" Height="280"/>
+        <Button Content="Play Sound" Click="SoundButton_Click" Margin="140,740,0,0" RequestedTheme="Dark"/>
     </Grid>
-
-
-
 </Page>

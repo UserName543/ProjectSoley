@@ -25,89 +25,133 @@ namespace Project_Soley
     public sealed partial class WeeklyPage1 : Page
     {
         ClockLogic newWeeklyAlarm;
-        ObservableCollection<ClockLogic> alarms = new ObservableCollection<ClockLogic>();
+        public ObservableCollection<ClockLogic> alarms { get; set; } = new ObservableCollection<ClockLogic>();
 
         public WeeklyPage1()
         {
             this.InitializeComponent();
 
-            newWeeklyAlarm = new ClockLogic(AlarmName.ToString(), false, false, false, false, false, false, false, WeeklyTimePicker.Time);
+            newWeeklyAlarm = new ClockLogic(AlarmName.Text, false, false, false, false, false, false, false, DateTime.Now);
         }
 
         private void WeeklyTimePicker_TimeChanged(object sender, TimePickerValueChangedEventArgs e)
         {
-            newWeeklyAlarm.setTime(WeeklyTimePicker.Time);
+            newWeeklyAlarm.setTime(convertTimePickerToDateTime(WeeklyTimePicker.Time));
 
             //testbox2.Text = _mon.ToString() + _tue.ToString() + _wed.ToString() + _thu.ToString() + _fri.ToString() + _sat.ToString() + _sun.ToString() + _time;
         }
 
+        private DateTime convertTimePickerToDateTime(TimeSpan timePicker)
+        {
+            int timePickerHours = timePicker.Hours;
+            int timePickerMin = timePicker.Minutes;
+            int timePickerSecs = timePicker.Seconds;
+            int today = newWeeklyAlarm.getTime().Day;
+            int month = newWeeklyAlarm.getTime().Month;
+            int year = newWeeklyAlarm.getTime().Year;
+            
+            DateTime convertedTime = new DateTime(year, month, today, timePickerHours, timePickerMin, timePickerSecs);
+
+            return convertedTime;
+        }   
+
         private string checkBoxArray()
         {
-            CheckBox[] weekdayboxes = new CheckBox[6];
+            string allDays = "";
+            bool?[] weekdayboxes = new bool?[7];
             //String finalBoxes = ConvertStringArrayToString(checkedBoxes);
-            weekdayboxes[0] = MondayCheckbox;
-            weekdayboxes[1] = TuesdayCheckbox;
-            weekdayboxes[2] = WednesdayCheckbox;
-            weekdayboxes[3] = ThursdayCheckbox;
-            weekdayboxes[4] = FridayCheckbox;
-            weekdayboxes[5] = SaturdayCheckbox;
-            weekdayboxes[6] = SundayCheckbox;
+            weekdayboxes[0] = MondayCheckbox.IsChecked;
+            weekdayboxes[1] = TuesdayCheckbox.IsChecked;
+            weekdayboxes[2] = WednesdayCheckbox.IsChecked;
+            weekdayboxes[3] = ThursdayCheckbox.IsChecked;
+            weekdayboxes[4] = FridayCheckbox.IsChecked;
+            weekdayboxes[5] = SaturdayCheckbox.IsChecked;
+            weekdayboxes[6] = SundayCheckbox.IsChecked;
 
-            List<string> checkedBoxes = new List<string>();
+            
 
-            for (int i = 0; i < 7; i++)
+            
+                
+            if(weekdayboxes[0] == true)
             {
-                if(weekdayboxes[0].IsChecked == true)
-                {
-                    checkedBoxes.Add("Monday");
-                }
+                allDays = "Monday";
+            }
 
-                if(weekdayboxes[1].IsChecked == true)
+            if(weekdayboxes[1] == true)
+            {
+                if (allDays.Equals(""))
                 {
-                    checkedBoxes.Add("Tuesday");
+                    allDays = "Tuesday";
                 }
-
-                if(weekdayboxes[2].IsChecked == true)
+                else
                 {
-                    checkedBoxes.Add("Wednesday");
-                }
-
-                if(weekdayboxes[3].IsChecked == true)
-                {
-                    checkedBoxes.Add("Thursday");
-                }
-
-                if(weekdayboxes[4].IsChecked == true)
-                {
-                    checkedBoxes.Add("Friday");
-                }
-
-                if(weekdayboxes[5].IsChecked == true)
-                {
-                    checkedBoxes.Add("Saturday");
-                }
-
-                if (weekdayboxes[6].IsChecked == true)
-                {
-                    checkedBoxes.Add("Sunday");
+                    allDays = allDays + ", Tuesday"; 
                 }
             }
-            string allDays = string.Join(",", checkedBoxes.ToArray());
+
+            if(weekdayboxes[2] == true)
+            {
+                if (allDays.Equals(""))
+                {
+                    allDays = "Wedesday";
+                }
+                else
+                {
+                    allDays = allDays + ", Wedesday";
+                }
+            }
+
+            if(weekdayboxes[3] == true)
+            {
+                if (allDays.Equals(""))
+                {
+                    allDays = "Thursday";
+                }
+                else
+                {
+                    allDays = allDays + ", Thursday";
+                }
+            }
+
+            if(weekdayboxes[4] == true)
+            {
+                if (allDays.Equals(""))
+                {
+                    allDays = "Friday";
+                }
+                else
+                {
+                    allDays = allDays + ", Friday";
+                }
+            }
+
+            if(weekdayboxes[5] == true)
+            {
+                if (allDays.Equals(""))
+                {
+                    allDays = "Saturday";
+                }
+                else
+                {
+                    allDays = allDays + ", Saturday";
+                }
+            }
+
+            if (weekdayboxes[6] == true)
+            {
+                if (allDays.Equals(""))
+                {
+                    allDays = "Sunday";
+                }
+                else
+                {
+                    allDays = allDays + ", Sunday";
+                }
+            }
+            
+            
             return allDays;
         }
-
-        /*static string ConvertStringArrayToString(CheckBox[] array)
-        {
-            // Concatenate all the elements into a StringBuilder.
-            StringBuilder builder = new StringBuilder();
-            foreach (CheckBox value in array)
-            {
-                builder.Append(value);
-                builder.Append('.');
-            }
-            return builder.ToString();
-        }*/
-        
 
         private void setWeeksofDay()
         {
@@ -162,16 +206,36 @@ namespace Project_Soley
 
         }
 
+        private void AlarmName_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            newWeeklyAlarm.setName(AlarmName.Text);
+        }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             setWeeksofDay();
             newWeeklyAlarm = new ClockLogic(newWeeklyAlarm.getName(), newWeeklyAlarm.getMonday(), newWeeklyAlarm.getTuesday(),
                 newWeeklyAlarm.getWednesday(), newWeeklyAlarm.getThursday(), newWeeklyAlarm.getFriday(), newWeeklyAlarm.getSaturday(),
                 newWeeklyAlarm.getSunday(), newWeeklyAlarm.getTime())
-            { Name = newWeeklyAlarm.getName() , Days = checkBoxArray(), Time = newWeeklyAlarm.getTime()};
+            { Name = newWeeklyAlarm.getName() , Days = checkBoxArray(), Time = newWeeklyAlarm.DateTimeToTimePickertoString(newWeeklyAlarm.getTime()) };
             alarms.Add(newWeeklyAlarm);
+            WeeklyList.ItemsSource = alarms;
+
+            MondayCheckbox.IsChecked = false;
+            TuesdayCheckbox.IsChecked = false;
+            WednesdayCheckbox.IsChecked = false;
+            ThursdayCheckbox.IsChecked = false;
+            FridayCheckbox.IsChecked = false;
+            SaturdayCheckbox.IsChecked = false;
+            SundayCheckbox.IsChecked = false;
+
+            AlarmName.Text = "Alarm";
         }
 
-        
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
+        }
     }
 }
