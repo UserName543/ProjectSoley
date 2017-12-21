@@ -35,8 +35,6 @@ namespace Project_Soley
         private GpioPin pin2;
         private GpioPinValue pinValue;
         private DispatcherTimer timer;
-        private SolidColorBrush redBrush = new SolidColorBrush(Windows.UI.Colors.Red);
-        private SolidColorBrush grayBrush = new SolidColorBrush(Windows.UI.Colors.LightGray);
 
 
         public MainPage()
@@ -50,65 +48,19 @@ namespace Project_Soley
             Timer.Interval = new TimeSpan(0, 0, 1);
             Timer.Start();
 
-            InitGPIO();
-            /*if (pin != null)
-            {
-                timer.Start();
-            }*/
+            LedController ledController = new LedController();
+            ledController.InitGPIO();
+
+
         }
 
-   
 
     private void Timer_Tick(object sender, object e)
     {
         Time.Text = DateTime.Now.ToString("hh:mm");
         Seconds.Text = DateTime.Now.ToString("ss");
-            /*
-            if (pinValue == GpioPinValue.High)
-            {
-                pinValue = GpioPinValue.Low;
-                pin.Write(pinValue);
-                LED.Fill = redBrush;
-            }
-            else
-            {
-                pinValue = GpioPinValue.High;
-                pin.Write(pinValue);
-                LED.Fill = grayBrush;
-            }*/
+
         }
-
-        
-       
-    
-
-
-
-    public void InitGPIO()
-    {
-        var gpio = GpioController.GetDefault();
-
-        // Show an error if there is no GPIO controller
-        if (gpio == null)
-        {
-            pin = null;
-            GpioStatus.Text = "There is no GPIO controller on this device.";
-            return;
-        }
-
-        pin = gpio.OpenPin(LED_PIN2);
-        pin1 = gpio.OpenPin(LED_PIN);
-        pin2 = gpio.OpenPin(LED_PIN1);
-        pinValue = GpioPinValue.High;
-        pin.Write(pinValue);
-        pin1.Write(pinValue);
-        pin2.Write(pinValue);
-            pin.SetDriveMode(GpioPinDriveMode.Output);
-            pin2.SetDriveMode(GpioPinDriveMode.Output);
-            pin1.SetDriveMode(GpioPinDriveMode.Output);
-            GpioStatus.Text = "GPIO pin initialized correctly.";
-
-    }
 
         private void optionButton_Click(object sender, RoutedEventArgs e)
         {
